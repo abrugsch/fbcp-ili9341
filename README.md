@@ -1,5 +1,8 @@
 # Introduction
 
+## CM3 fork
+This is a fork to make Compute Module 3 specific alterations to utilise a different SPI port (in case either of the default 40-pin connector ones are taken with other configs) so will use the SPI0 on GPIO 35-39
+
 This repository implements a driver for the SPI-based [Adafruit 2.8" 320x240 TFT w/ Touch screen for Raspberry Pi](https://www.adafruit.com/product/1601).
 
 ![PiTFT display](/example.jpg "Adafruit PiTFT 2.8 with ILI9341 controller")
